@@ -1,0 +1,22 @@
+/* klase selektori,bitna . , moze biti vise istih klasa*/
+.treci{
+    color: green;
+}
+/* element selector,odvaja se , */
+h2,p {
+    color: blueviolet;
+}
+/* ID selector,bitan #,stavit taj id u html,ne smije biti vise istih id-jeva*/
+#naslov {
+    color: aqua;
+}
+
+/* selektor koji se primjenjuje na sve,bitna *  */
+* {
+    background-color: aquamarine;
+}
+
+/* selektor sa atributom */
+p[draggable="true"] {
+    background-color: bisque;
+}

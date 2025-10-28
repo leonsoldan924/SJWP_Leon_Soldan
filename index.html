@@ -7,12 +7,21 @@
     <meta name="author" content="Leon Soldan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skriptni jezici</title>
+    <!-- internal css -->
+    <style>
+        .drugi{
+            color:red;
+        }
+    </style>
+    <!-- external -->
+     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <h1>Zadatak Raspored Riješen</h1>
     <ul type="circle">
         <li><a href="./Tablica/tablica.html" target="_blank">Raspored</a></li>
     </ul>
+    
     <h1>Zadace</h1>
     <ol>
         <li><a href="./Zadace/zadaca1.html" target="_blank">Zadaca1</a></li>
@@ -21,10 +30,21 @@
         <li>Zadaca4</li>
     </ol>
     <br>
+    <!-- 3 nacina dodavanja css-a -->
+    <h2>Dodavanje css-a</h2>
+    <ul>
+        <!-- inline -->
+        <li style="color: blue;">Inline </li>
+        <li class="drugi">Internal</li>
+        <!-- external -->
+        <li class="treci">External</li>
+    </ul>
+
+
     <!-- heading element alt+shift+a-->
      <h1>Naslov 1</h1>
      <h2>Naslov 2</h2>
-     <h3>Naslov 3</h3>
+     <h3 id="naslov">Naslov 3</h3>
      <h4>Naslov 4</h4>
      <h5>Naslov 5</h5>
      <h6>Naslov 6</h6>
@@ -43,7 +63,7 @@
      <h2>Mojih top 3 </h2>
      <hr>
      <h3>Star Wars</h3>
-     <p>Moj osobno najbolji film</p>
+     <p draggable="true">Moj osobno najbolji film</p>
      <br>
      <h3>Avengers:Endgame</h3>
      <p>Moj drugi najdrazi film</p>
