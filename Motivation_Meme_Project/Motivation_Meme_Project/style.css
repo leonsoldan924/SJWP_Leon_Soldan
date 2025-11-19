@@ -6,3 +6,19 @@
 * {
     background-color: black;
 }
+.image {
+  margin: 250px 100px 10px 760px;
+  width: 200px;
+  height: 200px;
+  border: 10px solid white;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin: 10px 200px 50px 200px;
+}
+p {
+  color: white;
+  text-align: center;
+  margin: 10px 200px 50px 200px;
+}

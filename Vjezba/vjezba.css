@@ -1,0 +1,73 @@
+.prva {
+    border: 1px solid black;
+    margin-left: 650px;
+}
+td {
+    border: 1px solid black;
+    column-span: all;
+}
+.prvi {
+    background-color: #0091f1;
+}
+.naslovni {
+    color: white;
+}
+.drugi {
+    background-color: #cdcfcf
+}
+/* drugi zad */
+.img1 {
+    width: 350px;
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;
+}
+.txt {
+    padding-left: 10px;
+}
+.div1 {
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+.div2 {
+    width: 350px;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+.div3 {
+    width: 350px;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+/* treci zad */
+.txt1 {
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hashtags {
+    color: rgb(114, 210, 241);
+    padding-left: 10px;
+}
+.img2 {
+    width: 450px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+.div4  {
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+.div5 {
+
+}
+.div6 {
+
+}
