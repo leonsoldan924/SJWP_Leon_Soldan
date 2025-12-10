@@ -1,0 +1,160 @@
+
+body {
+    background-color: gray;
+}
+.red{
+    width: 500px;
+    height: 300px;
+    background-color: darkred;
+    position: relative;
+}
+.blue {
+    width: 500px;
+    height: 150px;
+    background-color: darkblue;
+    position: absolute;
+    top: 80px;
+}
+.circle{
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    position: absolute;
+    top: 90px;
+    left: 180px;
+    border-radius: 50%;
+}
+
+
+
+.plava {
+    width: 500px;
+    height: 350px;
+    background-color: rgb(20, 45, 189);
+    position: relative;
+}
+.bijeli-vert {
+    width: 80px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    left: 100px;
+}
+.bijeli-hor {
+    width: 500px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+}
+.crveni-vert {
+    width: 30px;
+    height: 350px;
+    background-color: darkred;
+    position: absolute;
+    left: 125px;
+}
+.crveni-hor {
+    width: 500px;
+    height: 40px;
+    background-color: darkred;
+    position: absolute;
+    top: 150px;
+}
+
+
+/* .bla {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 50px black;
+    border-top: 50px transparent;
+    border-bottom: 50px transparent;
+} za trokute*/
+
+.back {
+    width: 500px;
+    height: 350px;
+    background-color: rgb(16, 105, 117);
+    position: relative;
+    z-index: 1;
+}
+.center{
+    width: 500px;
+    height: 120px;
+    background-color: rgb(173, 173, 5);
+    position: absolute;
+    top: 120px;
+}
+.arrow {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 175px solid black;
+    border-top: 175px solid transparent;
+    border-bottom: 175px solid transparent;
+}
+
+
+
+.backg{
+    width: 500px;
+    height: 350px;
+    background-color: darkred;
+    position: relative;
+}
+.white {
+    width: 120px;
+    height: 350px;
+    background-color: white;
+    position: absolute
+}
+.trokut{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 50px solid white;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    left: 120px;
+}
+.tr{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 50px solid white;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    left: 120px;
+    top: 70px;
+}
+.tro{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 50px solid white;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    left: 120px;
+    top: 105px;
+}
+.trok{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 50px solid white;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    left: 120px;
+    top: 140px;
+}
+.troku{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 50px solid white;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    left: 120px;
+    top: 175px;
+}

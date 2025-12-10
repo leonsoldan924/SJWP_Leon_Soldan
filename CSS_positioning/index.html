@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       .blue-box{
+        width: 500px;
+        height: 300px;
+        background-color: blue;
+        position: relative; /* relative-parent, absolute-child */
+        top: 200px;
+        left: 200px;
+       }
+       .red-circle{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border-radius: 50%;
+        position: absolute;
+        top: 150px;
+        left: 250px;
+       }
+       *{
+        background-color: grey;
+       }
+    </style>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="blue-box">
+        <div class="red-circle"></div>
+    </div>
+</body>
+</html>
