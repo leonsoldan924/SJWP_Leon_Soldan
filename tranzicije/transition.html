@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        div {
+            width: 250px;
+            height: 250px;
+            background-color: chocolate;
+            /*transition-property: width;
+            transition-duration: 3s;
+            transition-delay: 2ms;
+            transition-timing-function: cubic-bezier(1,-0.56, 0.07, 1.04);
+             */
+            transition: width 2s 0s cubic-bezier(1,-0.56, 0.07, 1.04),height 2s 0s cubic-bezier(1,-0.56, 0.07, 1.04),transform 2s ease;
+        }
+        div:hover{
+            width: 750px;
+            height: 750px;
+            background-color: crimson;
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Transition</h1>
+    <div></div>
+</body>
+</html>

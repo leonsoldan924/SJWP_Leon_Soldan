@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranzicije</title>
+    <style>
+        .prvi{
+            width: 250px;
+            height: 250px;
+            background-color: crimson;
+            transition: width 2s 0s ease-in-out
+        }
+        .prvi:hover {
+            width: 750px;
+        }
+        .ho{
+            width: 250px;
+            height: 250px;
+            position: relative;
+            background-color: crimson;
+            transition: width 1s 0s ease-in-out
+            
+        }
+        
+        .ho:hover{
+            width: 750px;
+        }
+        .cl{
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            background-color: blue;
+            margin-top: 20px;
+            transition: width 1s 1s ease-in-out
+            
+        }
+        .cl:hover{
+            width: 750px;
+        }
+
+        .d1{
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            background-color: blue;
+            transition: width 1s 1s ease-in-out
+        }
+    </style>
+</head>
+<body>
+    <h1>1.zadatak</h1>
+    <div class="prvi"></div>
+    <h1>2.zadatak</h1>
+    <div>
+        <div class="ho"></div>
+        <div class="cl"></div>
+    </div>
+    <br><br><br>
+    <h1>3.zadatak</h1>
+    <div class="d">
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3"></div>
+        <div class="d4"></div>
+    </div>
+</body>
+</html>
