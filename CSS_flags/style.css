@@ -158,3 +158,89 @@ body {
     left: 120px;
     top: 175px;
 }
+.zvijezda {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: gold;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    left: 175px;
+    top: 100px;
+}
+.zel {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background-color: rgb(35, 121, 68);
+}
+.crv {
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    background-color: rgb(177, 37, 37);
+    left: 150px;
+}
+.zut {
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    background-color: gold;
+    left: 300px;
+}
+
+.crve{
+    width: 450px;
+    height: 300px;
+    position: relative;
+    background-color: red;
+}
+.bij{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    left: 50px;
+    top: 80px;
+}
+.polu{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    left: 85px;
+    top: 95px;
+}
+.star {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    left: 185px;
+    top: 120px;
+    transform: rotate(-20deg);
+}
