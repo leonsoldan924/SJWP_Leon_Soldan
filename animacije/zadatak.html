@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak</title>
+    <style>
+        .klik{
+            width: 100px;
+            height: 100px;
+            margin-top: 50px;
+            margin-left: 150px;
+            background-color: blue;
+
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            box-sizing: border-box;
+            padding: 20px;
+            margin-left: 100px;
+            margin-top: 100px;
+            text-align: center;
+
+            animation-duration: 2s;
+            animation-name: kli;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+        }
+        @keyframes kli {
+            0%{
+
+            }
+            50% {
+                scale: 2;
+            }
+            100%{
+                scale: 1;
+            }            
+        }
+
+        .drugi{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+
+            animation-duration: 4s;
+            animation-name: boja;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+        }
+        @keyframes boja{
+            0%{
+
+            }
+            33% {
+                background-color: blue;
+            }
+            66%{
+                background-color: green;
+            }
+            100%{
+                background-color: red;
+            }            
+        }
+
+        .treci{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+
+            animation-duration: 3s;
+            animation-name: pomic;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;   
+            animation-direction: alternate;         
+        }
+        @keyframes pomic{
+            0%{
+
+            }
+            50%{
+                translate: 150px;
+            }           
+        }
+
+        .cetri{
+            width: 100px;
+            height: 100px;
+            background-color: crimson;
+            transition: width 0.5s 0s ease,height 0.5s 0s ease;    
+            color: white; 
+            box-sizing: border-box;
+            text-align: center;    
+            padding-top: 50px;
+        }
+        .cetri:hover{
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            box-shadow: 13px 12px 7px 0px rgba(0,0,0,0.75);
+        }
+
+        .peti{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin-left: 50px;
+
+            animation-duration: 2s;
+            animation-name: rotir;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;   
+
+        }
+        @keyframes rotir{
+            0%{
+
+            }
+            100%{
+                rotate: 360deg;
+            }          
+        }
+
+        .sesti{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border:4px solid gray;
+            border-top:4px solid white;
+            border-radius: 50%;
+
+            animation-duration: 1s;
+            animation-name: spin;
+            animation-iteration-count:infinite;
+            animation-delay: 0s;
+            animation-play-state: running;
+            animation-timing-function: linear;
+        }
+
+        @keyframes spin {
+            0%{
+
+            }
+
+            100%{
+                transform: rotate(360deg);
+                border-radius: 50%;
+            }
+        }
+
+        .sedmi{
+            color: black;
+            margin-top: 15px;
+            margin-left: 50px;
+            animation-duration: 2s;
+            animation-name: appe;
+            animation-delay: 0s;
+            animation-play-state: running;
+            animation-timing-function: ease;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes appe {
+            0%{
+                color: black;
+                margin-top: 15px;
+            }
+            100%{
+                color: white;
+                margin-top: 100px;
+            }
+        }
+
+        .osmi{
+            width: 120px;
+            height: 300px;
+            background-color: black;
+            position: relative;
+
+        }
+        .crveni{
+            width: 70px;
+            height: 70px;
+            background-color: grey;
+            border-radius: 50%;
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 25px;
+
+
+            animation-duration: 2s;
+            animation-name: crv;
+            animation-iteration-count:infinite;
+            animation-delay: 1.5s;
+            animation-timing-function: ease;
+        }
+        .zuti{
+            width: 70px;
+            height: 70px;
+            background-color: grey;
+            border-radius: 50%;
+            position: absolute;
+            margin-top: 100px;
+            margin-left: 25px;
+
+
+            animation-duration: 2s;
+            animation-name: zut;
+            animation-iteration-count:infinite;
+            animation-delay: 2s;
+            animation-timing-function: ease;
+        }
+        .zelen{
+            width: 70px;
+            height: 70px;
+            background-color: grey;
+            border-radius: 50%;
+            position: absolute;
+            margin-top: 180px;
+            margin-left: 25px;
+
+
+            animation-duration: 2s;
+            animation-name: zel;
+            animation-iteration-count:infinite;
+            animation-delay: 2.5s;
+            animation-timing-function: ease;
+        }
+        @keyframes crv{
+            0%{
+                
+            }
+            25%{
+                background-color: red; 
+            }         
+        }
+        @keyframes zut{
+            0%{
+                
+            }
+            50%{
+                background-color: yellow; 
+            }         
+        }
+        @keyframes zel{
+            0%{
+                
+            }
+            75%{
+                background-color: green; 
+            }         
+        }
+    </style>
+</head>
+<body>
+    <button class="klik">Klikni me!</button>
+    <br><br><br><hr><br>
+    <div class="drugi"></div>
+    <br><hr><br>
+    <div class="treci"></div>
+    <br><hr><br>
+    <div class="cetri">Ovo je tekst.</div>
+    <br><hr><br>
+    <div class="peti"></div>
+    <br><hr><br>
+    <div class="sesti"></div>
+    <br><hr><br>
+    <div class="sedmi">Ovo je tekst.</div>
+    <br><br><hr><br>
+    <div class="osmi">
+        <div class="crveni"></div>
+        <div class="zuti"></div>
+        <div class="zelen"></div>
+    </div>
+</body>
+</html>
