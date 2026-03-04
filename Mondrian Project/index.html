@@ -4,8 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grid Placement</title>
+  <title>Mondrian Project</title>
   <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
     body {
       padding: 0;
       margin: 0;
@@ -14,8 +27,8 @@
     .container {
       height: 100vh;
       display: grid;
-      gap: 3rem;
-      grid-template-columns: 1fr 1fr 1.5fr;
+      
+      grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr;
     }
 
@@ -40,20 +53,15 @@
       /* grid-row: span 2; */
       grid-area: 1/3/3/4;   /* row start column start row end column end */
     }
-    .astronaut{
-      background-color: darkcyan;
-      order: 1;   /* stavlja ga na kraj */
-      grid-column-start: 1;
-      grid-column-end: 3;
-    }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <div class="item cowboy">🤠</div>
-    <div class="item astronaut">👨‍🚀</div>
-    <div class="item book">📖</div>
+  <!-- Write your HTML here -->
+   <div class="container">
+    <div class="red"></div>
+    <div class="desna"></div>
+    <div class="item book"></div>
   </div>
 </body>
 
