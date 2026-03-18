@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 223, 223);
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(196, 61, 61);
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: rgb(235, 102, 102);
+}
+
+.container{
+    height: 220vh;
+    display: grid;
+    margin: 30px;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.container div{
+    background-color: rgb(240, 223, 223);
+    border: 4px dashed rgb(196, 61, 61);
+    color: white;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.container div:hover{
+    transform: scale(1.05);
+}
+.avatar2{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/I/71DlLjNU0HL._AC_UF894,1000_QL80_.jpg);
+    background-size: cover;
+    
+}
+.avatar2 p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.avatar2:hover{
+    cursor: pointer;    
+}
+
+
+
+
+.fast1{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/I/61qTEPIUzML.jpg);
+    background-size: cover;
+    
+}
+.fast1 p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+.endgame{
+    position: relative;
+    background-image: url(https://cdn.europosters.eu/image/1300/122136.jpg);
+    background-size: cover;
+    
+}
+.endgame p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.fast2{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/I/61lgGNxNDKL._AC_UF894,1000_QL80_.jpg);
+    background-size: cover;
+    
+}
+.fast2 p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.iron1{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+    
+}
+.iron1 p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.scary1{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZGRmMGRhOWMtOTk3Ni00OTRjLTkyYTAtYzA1M2IzMGE3NGRkXkEyXkFqcGc@._V1_.jpg);
+    background-size: cover;
+    
+}
+.scary1 p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
