@@ -11,21 +11,37 @@ h2, p {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
+  padding: 0 20px;
   background-color: rgb(196, 61, 61);
+  
+  
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  height: 70px; 
 }
 
-ul li {
-  float: left;
+
+.logo {
+  color: white;
+  font-size: 24px; 
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+.menu-links {
+  display: flex;
 }
 
 ul li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 25px; 
   text-decoration: none;
+  font-size: 18px; 
+  font-family: sans-serif;
 }
 
 ul li a:hover {

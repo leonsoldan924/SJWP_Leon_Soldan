@@ -11,26 +11,43 @@ h2, p {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
+  padding: 0 20px; 
   background-color: rgb(196, 61, 61);
+  
+  
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  height: 70px; 
 }
 
-ul li {
-  float: left;
+
+.logo {
+  color: white;
+  font-size: 24px; 
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+.menu-links {
+  display: flex;
 }
 
 ul li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 25px; 
   text-decoration: none;
+  font-size: 18px; 
+  font-family: sans-serif;
 }
 
 ul li a:hover {
   background-color: rgb(235, 102, 102);
 }
+
 
 .container{
     height: 220vh;
@@ -49,6 +66,14 @@ ul li a:hover {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+}
+.movie-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;     
 }
 
 .container div:hover{
@@ -154,6 +179,241 @@ ul li a:hover {
     
 }
 .scary1 p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.f1{
+    position: relative;
+    background-image: url(https://lh6.googleusercontent.com/proxy/kDYakpdq2rBuWaVpik-NuAIY6UFZDytoiqMmRRprQ03Swlz7lb9Luz6qRWWD-S9z4LZr1YrCHRaGFhKG3KExWebFUNkse8s);
+    background-size: cover;
+    
+}
+.f1 p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.gran{
+    position: relative;
+    background-image: url(https://i.ebayimg.com/images/g/uLQAAOSw2Wxk1MEI/s-l400.jpg);
+    background-size: cover;
+    
+}
+.gran p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.mission{
+    position: relative;
+    background-image: url(https://posterspy.com/wp-content/uploads/2025/05/MI-THE-FINAL-RECKONING-TMDB-TEXT-2000X3000.jpg);
+    background-size: cover;
+    
+}
+.mission p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.john{
+    position: relative;
+    background-image: url(https://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/SRgAAOSwXY9kNpU~/$_57.JPG?set_id=8800005007);
+    background-size: cover;
+    
+}
+.john p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.deadp{
+    position: relative;
+    background-image: url(https://i.ebayimg.com/00/s/MTYwMFgxMDgw/z/uBIAAOSwB8BmesxN/$_57.JPG?set_id=880000500F);
+    background-size: cover;
+    
+}
+.deadp p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.transf{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/I/711MPxWXaSL.jpg);
+    background-size: cover;
+    
+}
+.transf p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.equal{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTQ2MzE2NTk0NF5BMl5BanBnXkFtZTgwOTM3NTk1MjE@._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+    
+}
+.equal p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.jurr{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/I/71gEeRunI0L._AC_UF894,1000_QL80_.jpg);
+    background-size: cover;
+    
+}
+.jurr p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.four{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BOGM5MzA3MDAtYmEwMi00ZDNiLTg4MDgtMTZjOTc0ZGMyNTIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+    
+}
+.four p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.justice{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/I/71oHtaIExML._AC_UF894,1000_QL80_.jpg);
+    background-size: cover;
+}
+.justice p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.equal2{
+    position: relative;
+    background-image: url(https://lh3.googleusercontent.com/proxy/RolquIwIS_Rl1kCThnwmvTKM-yJpI79FVvIKAycwWZnj-3Pv0KluRYEYSrutCiOIsMvcw4f36abU_VWHuiNAHAIY91WMFI9Nwf7JKXYu0OPT);
+    background-size: cover;
+}
+.equal2 p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.fury{
+    position: relative;
+    background-image: url(https://i.etsystatic.com/12729518/r/il/f58742/1992785418/il_fullxfull.1992785418_4tlw.jpg);
+    background-size: cover;
+}
+.fury p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.cap{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BNWY1NjFmNDItZDhmOC00NjI1LWE0ZDItMTM0MjBjZThiOTQ2XkEyXkFqcGc@._V1_.jpg);
+    background-size: cover;
+}
+.cap p{
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.beasts{
+    position: relative;
+    background-image: url(https://www.movieposters.com/cdn/shop/products/secrets2_1024x1024.jpg?v=1762970121);
+    background-size: cover;
+}
+.beasts p{
     position: absolute;
     color: black;
     font-size: 1.3rem;
