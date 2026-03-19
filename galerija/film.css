@@ -79,6 +79,17 @@ ul li a:hover {
 .container div:hover{
     transform: scale(1.05);
 }
+
+
+.container div p{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(196, 61, 61);
+    width: 21.5rem;
+    
+}
+
+
+
 .avatar2{
     position: relative;
     background-image: url(https://m.media-amazon.com/images/I/71DlLjNU0HL._AC_UF894,1000_QL80_.jpg);
@@ -109,7 +120,7 @@ ul li a:hover {
 }
 .fast1 p{
     position: absolute;
-    color: black;
+    color: rgb(196, 61, 61);
     font-size: 1.3rem;
     margin-top: -400px;
     border-radius: 20px;

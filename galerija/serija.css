@@ -11,7 +11,7 @@ h2, p {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0 20px;
+  padding: 0 20px; 
   background-color: rgb(196, 61, 61);
   
   
@@ -48,6 +48,7 @@ ul li a:hover {
   background-color: rgb(235, 102, 102);
 }
 
+
 .container{
     height: 220vh;
     display: grid;
@@ -58,11 +59,370 @@ ul li a:hover {
 }
 .container div{
     background-color: rgb(240, 223, 223);
-    border: 4px solid rgb(196, 61, 61);
+    border: 4px dashed rgb(196, 61, 61);
     color: white;
     font-size: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+}
+.movie-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;     
+}
+
+.container div:hover{
+    transform: scale(1.05);
+}
+
+
+.container div p{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(196, 61, 61);
+    width: 21.5rem;
+    
+}
+
+.narcos{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BNzQwOTcwMzIwN15BMl5BanBnXkFtZTgwMjYxMTA0NjE@._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+    
+}
+.narcos p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.narcos2{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BM2FkZGQyODItOGFlNy00ZDA1LWFjMTEtMGUyYzk0ZDYzNmRjXkEyXkFqcGc@._V1_.jpg);
+    background-size: cover;
+    
+}
+.narcos2 p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.bad{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_.jpg);
+    background-size: cover;
+    
+}
+.bad p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.flash{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMjU0ZjZhNDQtMDhkYi00OWQyLWE3NGYtNzBlY2VmM2I4ZDg5XkEyXkFqcGc@._V1_.jpg);
+    background-size: cover;
+    
+}
+.flash p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.peng{
+    position: relative;
+    background-image: url(https://image.tmdb.org/t/p/original/rtizNyn1c1um42rYZyyXqYZWfk1.jpg);
+    background-size: cover;
+    
+}
+.peng p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.reach{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMzdjYWZlMDQtYzdhNi00NmRlLTg2NzUtMTI3MWFhZDliNjBiXkEyXkFqcGc@._V1_.jpg);
+    background-size: cover;
+    
+}
+.reach p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.tulsa{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZWQ2ZmFjM2UtZDI3My00ZWJiLWFlZTQtOWI4OGFiMmMzNWZiXkEyXkFqcGc@._V1_.jpg);
+    background-size: cover;
+    
+}
+.tulsa p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.thrones{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+    
+}
+.thrones p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.stranger{
+    position: relative;
+    background-image: url(https://static.wikia.nocookie.net/strangerthings8338/images/5/51/Season_5_Teaser_Poster.jpg/revision/latest?cb=20250715203311);
+    background-size: cover;
+    
+}
+.stranger p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.last{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_.jpg);
+    background-size: cover;
+    
+}
+.last p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.papel{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZjkxZWJiNTUtYjQwYS00MTBlLTgwODQtM2FkNWMyMjMwOGZiXkEyXkFqcGc@._V1_.jpg);
+    background-size: cover;
+    
+}
+.papel p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.arrow{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BNjRlNjNlY2YtYzQxNS00ZTUzLTkwMTQtMjM0YjZlOWQwZmFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+    
+}
+.arrow p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.bang{
+    position: relative;
+    background-image: url(https://cdng.europosters.eu/pod_public/1300/106240.jpg);
+    background-size: cover;
+    
+}
+.bang p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.men{
+    position: relative;
+    background-image: url(https://media.themoviedb.org/t/p/w500/sBR2LYNbgtnA76fbIO2AuX8duXD.jpg);
+    background-size: cover;
+    
+}
+.men p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.bones{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMjA3ODMxMzM5NF5BMl5BanBnXkFtZTgwMDM1NjU0OTE@._V1_.jpg);
+    background-size: cover;
+    
+}
+.bones p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.ncis{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZmEyMmQ1ZDItODMyNC00MjMzLWIyYjQtNThhOGJiNmY1OGEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+    
+}
+.ncis p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.rookie{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMzc2MDdkZDUtZjZlYy00MGMyLWJkNzUtMTMxY2FkZjZjYmEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+    
+}
+.rookie p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.fire{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BNDVhYTBmYzUtNjU5NC00NjE3LWE5ZWQtZmNkYTIyYmQ3NGU2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+    
+}
+.fire p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.dex{
+    position: relative;
+    background-image: url(https://pixeldemonmg.co.uk/cdn/shop/files/dexter-movie-poster_abac36b1-314a-43a1-8270-9f1b98f57b79.jpg?v=1727034042&width=1214);
+    background-size: cover;
+    
+}
+.dex p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.mental{
+    position: relative;
+    background-image: url(https://m.media-amazon.com/images/I/61bl4IFE+TL._AC_UF894,1000_QL80_.jpg);
+    background-size: cover;
+    
+}
+.mental p{
+    position: absolute;
+    color: rgb(196, 61, 61);
+    font-size: 1.3rem;
+    margin-top: -400px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
 }
